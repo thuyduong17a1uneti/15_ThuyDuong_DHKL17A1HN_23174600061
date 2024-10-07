@@ -1,9 +1,9 @@
 import json
 
 data = {
-    'name': 'NgTheAnh',
+    'name': 'DoThuyDuong',
     'age': 19,
-    'location': 'Bac Ninh'
+    'location': 'Bac Kan'
 }
 
 json_data = json.dumps(data, sort_keys=True, indent=4)

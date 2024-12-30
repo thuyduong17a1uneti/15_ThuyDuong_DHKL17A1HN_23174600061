@@ -13,7 +13,7 @@ class JSONReader:
                 print(f"Name: {user['name']}, Age: {user['age']}, \Address:{user['address']}")
                 
 #Sử dụng lớp JSONReader
-path = 'D:/17a1dhkl/DHKL17A1HN/LAB1/DATA/users.json'
+path = 'D:\KHDL\Lập trình python nâng cao\DHKL17A1HN\LAB1\DATA/users.json'
 reader = JSONReader(path)
 reader.read_json()
 reader.display_data()

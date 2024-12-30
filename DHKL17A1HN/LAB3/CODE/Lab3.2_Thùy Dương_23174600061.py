@@ -1,6 +1,6 @@
 import pandas as pd
 
-stocks1 = pd.read_csv(r'D:\DHKL17A1HN\LAB3\DATA\stocks1.csv')
+stocks1 = pd.read_csv(r'D:\KHDL\Lập trình python nâng cao\DHKL17A1HN\LAB3\DATA\stocks1.csv')
 
 print(stocks1.isnull().sum())
 stocks1['high'].fillna(stocks1['high'].mean(), inplace=True)
